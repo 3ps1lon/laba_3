@@ -29,8 +29,11 @@ int main() {
 
     std::cout << "Massive: ";
     for (int i = 0; i < n; i++){
+
         A[i] = min +rand()%(max-min+1);
+
         std::cout << A[i];
+        
         if (i<n-1){
              std::cout << ", ";
 
